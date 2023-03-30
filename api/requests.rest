@@ -1,0 +1,19 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "goto gym"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63c3df87788ca31a01f12515
+
+###
+PUT http://localhost:3001/todo/complete/63c3df62788ca31a01f12512
+
+content
